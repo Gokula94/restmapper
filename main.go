@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	res := "posts"
+	res := "pods"
 	configFlag := genericclioptions.NewConfigFlags(true).WithDeprecatedPasswordFlag()
 	matchVersionFlags := cmdutil.NewMatchVersionFlags(configFlag)
 	m, err := cmdutil.NewFactory(matchVersionFlags).ToRESTMapper()
